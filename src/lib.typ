@@ -38,7 +38,7 @@
 
   // front page
   {
-    let background-image = "img/" + format-type + "_" + lang + ".svg"
+    let background-image = "/img/" + format-type + "_" + lang + ".svg"
     set page(margin: (right: 6.5cm), background: image(background-image))
 
     v(5cm)
